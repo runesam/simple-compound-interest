@@ -4,10 +4,15 @@
     "browser": true
   },
   "rules": {
-    "indent": [2, "tab"],
+    "indent": 0,
     "no-tabs": 0,
     "linebreak-style": 0,
     "react/jsx-indent": 0,
-    "react/jsx-filename-extension": 0
+    "react/jsx-filename-extension": 0,
+    "import/no-extraneous-dependencies": 0
+  },
+  "globals": {
+    "describe": true,
+    "it": true
   }
 }
