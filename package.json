@@ -1,0 +1,44 @@
+{
+  "name": "Simple-Compound-Interest",
+  "version": "1.0.0",
+  "description": "Simple and Compound interest calculator",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html -p 3000",
+    "build": "parcel build index.html --no-minify --public-url /"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/runesam/simple-compound-interest.git"
+  },
+  "keywords": [
+    "MIT"
+  ],
+  "author": "Sam Ewdala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/runesam/simple-compound-interest/issues"
+  },
+  "homepage": "https://github.com/runesam/simple-compound-interest#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.1.3",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.3.1",
+    "postcss-modules": "^1.1.0"
+  }
+}
