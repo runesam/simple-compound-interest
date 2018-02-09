@@ -40,7 +40,7 @@ class FieldArraysForm extends Component {
             <div className='col-xs-12'>
                 <br />
                 <p>
-                    <b>Simple interest is money you can earn by initially investing some money
+                    <b>Interest is money you can earn by initially investing some money
                     (the principal). A percentage (the interest) of the principal is added to
                     the principal, making your initial investment grow!
                     </b>
@@ -58,17 +58,21 @@ class FieldArraysForm extends Component {
                         <option value='compound'>Compound</option>
                     </select>
                 </div>
-                {this.props.interestType && (
-                    <CalculatorForm
-                        fields={this.props.fields}
-                        handleSubmit={handleSubmit}
-                        onSubmit={this.onSubmit}
-                        submitting={submitting}
-                    />
-                )}
-                {this.props.interestResult && (
-                    <ResultTable results={this.props.interestResult} />
-                )}
+                <div className='col-xs-12 col-md-6 float-left'>
+                    {this.props.interestType && (
+                        <CalculatorForm
+                            fields={this.props.fields}
+                            handleSubmit={handleSubmit}
+                            onSubmit={this.onSubmit}
+                            submitting={submitting}
+                        />
+                    )}
+                </div>
+                <div className='col-xs-12 col-md-6 float-left'>
+                    {this.props.interestResult && (
+                        <ResultTable results={this.props.interestResult} />
+                    )}
+                </div>
             </div>
         );
     }

@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { reducer as form } from 'redux-form';
 
+import form from './interestCalculatorFormReducer';
 import fields from './fieldsReducer';
 import interestType from './interestTypeReducer';
 import interestResult from './interestResultReducer';

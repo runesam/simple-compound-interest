@@ -3,7 +3,7 @@ import { PropTypes } from 'prop-types';
 
 const ResultTable = ({ results }) => (
     <div className='container'>
-        <table className='table'>
+        <table className='table table-hover'>
             <thead>
                 <tr>
                     {results.details.heads.map(value => <th key={value}>{value}</th>)}

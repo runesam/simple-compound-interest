@@ -3,7 +3,7 @@ import {
     UPDATE_INTEREST_TYPE,
 } from './../constants';
 
-function fieldsReducer(state = InitialStates.fields, action) {
+function fieldsReducer(state = InitialStates.fields, action = {}) {
 	let formFields;
 	switch (action.type) {
 		case UPDATE_INTEREST_TYPE:
