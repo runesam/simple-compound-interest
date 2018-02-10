@@ -13,13 +13,13 @@ a table that shows calculated interests and total amounts for each year
 At the bottom - Grand total of interest and amount for all the years
 Note - Write test cases
 
-#####Technology Stack:
+##### Technology Stack:
 
 ReactJs, Redux
 
-####Task - 2
+#### Task - 2
 
-#####Convert these PSDs (desktop and mobile) to responsive Html/css:
+##### Convert these PSDs (desktop and mobile) to responsive Html/css:
 
 https://drive.google.com/drive...
 
@@ -37,7 +37,7 @@ It should take about a day to finish the task.
 #### For running tests only
     npm test
     
-##Navigation
+## Navigation
 
 ###### change port '3000' to the provided port in case it was busy.
 
